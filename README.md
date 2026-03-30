@@ -34,7 +34,7 @@ Cloud SQL (PostgreSQL)
 
 ---
 
-## 🚀 Deployment Steps (Simplified)
+## 🚀 Deployment Steps
 
 ### 1. Build Backend
   -mvn clean package
@@ -82,5 +82,5 @@ https://taskapp-backend-45643909102.us-central1.run.app/api/tasks
 ## 👨‍💻 Author
 
 Yash Shah
-## 🚀 Deployment Steps (Simplified)
+
 

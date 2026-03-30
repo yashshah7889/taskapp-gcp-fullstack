@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #f0f0f0;
+}
+
+.task-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.task-form button,
+button {
+  padding: 10px 14px;
+  cursor: pointer;
+}
